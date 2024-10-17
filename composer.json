@@ -1,5 +1,5 @@
 {
-    "name": "rohitkumarinc/Puniya-MVC",
+    "name": "rohitkumarinc/puniya-mvc",
     "autoload": {
         "psr-4": {
             "App\\": "app/"
