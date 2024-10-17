@@ -14,21 +14,18 @@ Puniya MVC is a lightweight and modular PHP framework designed to facilitate the
 
 To install and set up Puniya MVC, follow these steps:
 
-1. Clone the repository:
+1. Create a new project using Composer:
    ```bash
-   git clone https://github.com/rohitkumarinc/Puniya-MVC.git
+   composer create-project rohitkumarinc/puniya-mvc aaa --stability dev
    
 2. Navigate to the project directory:
     ```bash
-    cd Puniya-MVC
-    
-3. Install the required dependencies using Composer:
-   ```bash
-   composer install
+    cd aaa
    
-4. Configure your database settings in the config/database.php file.
-5. Start your local development server:
+3. Configure your database settings in the .env file.
+
+4. Start your local development server:
     ```bash
    php -S localhost:8000 -t public
 
-6. Open your browser and visit http://localhost:8000 to see the application in action.
+5. Open your browser and visit http://localhost:8000 to see the application in action.
