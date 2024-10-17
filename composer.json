@@ -1,0 +1,21 @@
+{
+    "name": "dreams/my-php-mvc-framework",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Rohit Kumar",
+            "email": "rohit@thedreamsteps.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.6",
+        "illuminate/database": "^10.48",
+        "illuminate/events": "^10.48",
+        "illuminate/container": "^10.48",
+        "maximebf/debugbar": "^1.23"
+    }
+}
