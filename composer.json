@@ -1,5 +1,5 @@
 {
-    "name": "dreams/my-php-mvc-framework",
+    "name": "rohitkumarinc/Puniya-MVC",
     "autoload": {
         "psr-4": {
             "App\\": "app/"
